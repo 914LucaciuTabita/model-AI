@@ -36,8 +36,8 @@ def process_images(source_dir, target_dir):
                     print(f"Failed to process {file_path}")
 
 def main():
-    source_directory = 'data'
-    target_directory = 'data_grayscale'
+    source_directory = '/Users/tabitalucaciu/UBB INFO ENGL/YEAR 3/SEM 2/Licenta/pythonProject1 copy/data'
+    target_directory = '/Users/tabitalucaciu/UBB INFO ENGL/YEAR 3/SEM 2/Licenta/pythonProject1 copy/data_grayscale'
 
     # Create the target directory structure
     create_directory_structure(source_directory, target_directory)

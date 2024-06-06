@@ -35,8 +35,8 @@ def process_images(source_dir, target_dir):
                     print(f"Failed to process {file_path}")
 
 def main():
-    source_directory = 'data'
-    target_directory = 'data_noise_reduction'
+    source_directory = '/Users/tabitalucaciu/UBB INFO ENGL/YEAR 3/SEM 2/Licenta/pythonProject1 copy/data'
+    target_directory = '/Users/tabitalucaciu/UBB INFO ENGL/YEAR 3/SEM 2/Licenta/pythonProject1 copy/data_noise_reduction'
 
     create_directory_structure(source_directory, target_directory)
     process_images(source_directory, target_directory)
