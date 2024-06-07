@@ -14,7 +14,7 @@ def count_folders_in_materials(data_dir):
 
 def print_folder_counts(folder_counts):
     for material, count in folder_counts.items():
-        print(f"{material}: {count}")
+        print(f"{material}: {4*count}")
 
 if __name__ == "__main__":
     data_dir = '/Users/tabitalucaciu/UBB INFO ENGL/YEAR 3/SEM 2/Licenta/pythonProject1 copy/data'  # Change this to your actual data directory
